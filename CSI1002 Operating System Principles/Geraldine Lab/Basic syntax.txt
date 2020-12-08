@@ -1,0 +1,55 @@
+clear --> clears the entire terminal window	
+
+1) variable name(inbuilt words)  : echo "    `date`"
+2) normal variable name          : $<variable_name>  (Value at that variable)
+3) To evaluate an expression     : expr 1 + 3  (Add and sub are similar)
+                                   For printing purpose <echo `expr 1 + 3`>
+                    Division(integer) --> 
+                    Normal Division   --> expr 1 / 3  -> 0 (without any decimal value) Quotient
+                    Multiplication    --> expr 2 \* 4 -> 8
+4) echo --> print
+5) read --> scan
+
+6) ls > f          (All the contents of ls will be copied to f)
+7) vi f (or) cat f (To view the contents of the file)
+
+8) date > f    ( Now the old contents of f will be deleted and the date will be overwritten)
+9) date >> f   (this will append the date with the existing command)
+
+10) n < f     ( Reading the data from the file) 
+11) echo "$n" ( Returns only the first line of the file )
+
+12) gedit <file_name>.sh (With this file name a new editor will be opened) (Type all the commands and save the file)
+13) sh <file_name>.sh  (Will open the file in the cmd itself)
+
+14) -gt --> greater than
+    -ge --> greater than or equal to 
+    -lt --> lesser than
+    -le --> lesse than or equal to 
+15) -a  --> logical and 
+    -o  --> logical or
+    -!  --> logical not
+
+16) -ne --> not equal
+    -eq --> equal
+
+## To create a C program 
+gedit <file_name>.c # Opening C program file
+gcc <file_name>.c   # Compiling the C program file 
+./a.out             # Running the code
+
+Another way ## To create a C program 
+gedit <file_name>.c                # Opening C program file
+gcc -o <file_name> <file_name>.c   # Compiling the C program file 
+./<file_name>                      # Running the code
+
+# To create a bash 
+1) gedit <file_name>.sh
+2) bash <file_name>.sh
+
+# Convert into upper and lower case
+y = "Prashanth"
+echo ${y,,}  -->  lower case
+echo ${y^^}  -->  upper case
+
+echo "$y" | tr '[:upper:]' '[:lower]'
