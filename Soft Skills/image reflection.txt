@@ -1,2 +1,0 @@
-water image reflection  --> top and bottom part of the image are changed
-mirror image reflection --> left and right part of the image are changed

@@ -1,0 +1,18 @@
+
+Process Synchronization
+Semaphores
+Deadlocks 
+   --> Bankers Algorithm
+
+#########################
+Threads
+#########################
+
+#########################
+Memory Management
+	Contiguous 
+	   Static and Dynamic 
+	   First fit,best fit,worst fit
+#########################
+Paging(Non-contiguous)
+#########################
