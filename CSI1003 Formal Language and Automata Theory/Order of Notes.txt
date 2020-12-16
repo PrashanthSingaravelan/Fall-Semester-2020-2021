@@ -1,0 +1,22 @@
+###############
+NFA to DFA and DFA to NFA
+1) Equivalance of NFA and DFA
+2) Converting epsilon NFA to DFA
+3) Converting epsilon epsilon NFA to DFA
+###############
+
+###############
+FA to RE and RE to FA
+1) Example sums (RE to FA)
+2) Adren's theorem (FA to RE)
+###############
+
+###############
+Context free grammer,language,push down automata
+1) Left and Right Most derivation
+2) Parse tree
+3) Ambiguous grammer
+3) CNF
+4) GNF
+
+
