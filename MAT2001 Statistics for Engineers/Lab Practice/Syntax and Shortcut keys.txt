@@ -1,0 +1,2 @@
+1) ctrl + l --> To clear the terminal window
+2) ctrl + enter --> To execute the program
