@@ -12,11 +12,20 @@ FA to RE and RE to FA
 ###############
 
 ###############
-Context free grammer,language,push down automata
+Context free grammer,language
 1) Left and Right Most derivation
 2) Parse tree
 3) Ambiguous grammer
 3) CNF
 4) GNF
+################
+
+################
+Pushdown automata
+1) Deterministic Push down automata
+2) Non-Deterministic Push down automata
+3) CFG to PDA
+4) PDA to CFG
+################
 
 
