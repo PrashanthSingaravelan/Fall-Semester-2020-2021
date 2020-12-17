@@ -1,0 +1,36 @@
+declare 
+	radius number(2);
+	area number(4,2);
+begin
+	radius:=&radius;
+	area  :=3.14*radius*radius;
+	dbms_output.put_line('The area of the circle is : '||area);
+end;
+/
+
+declare 
+    name varchar2(30);
+    regno varchar2(30);
+begin
+    name := &name;
+    regno:= &regno;
+    dbms_output.put_line('My name is : '||name);
+    dbms_output.put_line('My registration number is : '||regno);
+end;
+/
+
+declare 
+    principal number(10);
+    n number(1);
+    rate number(2);
+    simple number(4,2);
+begin
+    principal := &principal;
+    n         := &n;
+    rate      := &rate;
+    simple    := ((principal*n*rate)/100);
+    dbms_output.put_line('Simple interest : '||simple);
+end;
+/
+
+

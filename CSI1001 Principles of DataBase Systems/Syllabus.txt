@@ -1,0 +1,12 @@
+Normal forms
+1) 1st normal form
+2) 2nd normal form
+	The relation must be in 1st normal form.
+	No Partial dependency
+	Partial dependency : Proper subset of candidate key (Prime attributes) determining Non prime attribute	
+3) 3rd normal form
+	The relation must be in 2nd normal form.
+	No transitive dependency
+	Transitive dependency : Non Prime attribute determining Non prime attribute	
+
+4) BCNF

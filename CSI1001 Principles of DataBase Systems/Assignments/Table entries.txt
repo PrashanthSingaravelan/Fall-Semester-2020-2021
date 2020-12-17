@@ -1,0 +1,23 @@
+create table amazon(product_id number(10),product_name varchar2(30),product_price number(10),customer_id number(10),time_of_order varchar2(30),data_of_purchase varchar2(30),quantity number(10));
+
+create table customer(customer_id number(10),customer_name varchar2(30),customer_phonenumber number(10),customer_address varchar2(30));
+
+Amazon table entries
+insert into amazon values(1001,'SmartTV',500000,2001,'9-AM','01-JUL-2019',2);
+insert into amazon values(1002,'Dish wash',25000,2002,'10-PM','25-AUGUST-2019',3);
+insert into amazon values(1003,'Home Theatre',35000,2003,'1-AM','18-SEPTEMBER-2019',4);
+insert into amazon values(1004,'Alexa',8000,2004,'11-AM','16-OCTOBER-2019',6);
+insert into amazon values(1005,'Mack book pro',1000000,2005,'5-PM','10-NOVEMBER-2019',8);
+insert into amazon values(1006,'One plus 8 pro',45000,2006,'6-AM','24-APRIL-2019',1);
+insert into amazon values(1007,'Sony Bravia',85000,2007,'11-AM','22-APRIL-2019',5);
+insert into amazon values(1008,'iphone 11 pro max',65000,2007,'12-AM','20-APRIL-2019',0);
+
+Customer table entries 
+insert into customer values(2001,'Chandler',902145,'Washington');
+insert into customer values(2002,'Ross',45123,'London');
+insert into customer values(2003,'Prashanth',98032,'Sydney');
+insert into customer values(2004,'Monica',73821,'Austria');
+insert into customer values(2005,'Phoeba',32456,'Ireland');
+insert into customer values(2006,'Rajesh',29031,'California');
+insert into customer values(2007,'Messi',19041,'Barcelona');
+

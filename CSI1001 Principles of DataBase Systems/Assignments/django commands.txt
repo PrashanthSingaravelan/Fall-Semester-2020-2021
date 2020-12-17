@@ -1,0 +1,8 @@
+To update pip
+pip install --upgrade pip --user [ --user for User permission to write in C disk]
+
+To know the django version 
+python -m django --version
+
+To see the django submenus
+django-admin

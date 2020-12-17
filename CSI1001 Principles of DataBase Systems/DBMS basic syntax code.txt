@@ -1,0 +1,67 @@
+1) create table new(emp_id number(10) , emp_name varchar2(10) , hire_data date , salary number(10))
+2) desc new;
+
+## Altering the table
+## Adding a new field to the table 
+alter table <table_name> add <column_name> datatype(size) 
+  "alter table new add emp_age number(10)"
+varchar2 --> Dynamic allocation
+varchar  --> Static allocation
+
+# Modifying the memory of a specific column 
+alter table <table_name> modify <column_name> data-type(size)
+  "alter table new modify address varchar2(30)"
+
+# Deleting a specific attribute
+alter table <table_name> delete column <attribute_name>
+alter table <table_name> drop column <attribute_name>
+  "alter table new delete column address"
+
+# Inserting a particular attribute into a table
+alter table <table_name> add <attribute_name> data-type(size)
+
+# Entering the data into that added attribute
+insert all
+2 into <table_name> <newly_added_column> values (desired values)
+3 into <table_name> <newly_added_column> values (desired values)
+select * from dual
+
+# Rename a specific attribute name
+alter table <table_name> rename column <old_attribute_name> to <new_atrribute_name>
+  "alter table new rename column emp_id to emp_number"
+
+# Rename the table name
+rename <old_table_name> to <new_table_name>;
+  "rename new to prashanth"
+
+# Inserting a record into the data-set
+insert into <table_name> values(records)
+  "insert into prashanth values(11188,'Kumar','12/august/97',100000)"
+
+# Check whether the record is inserted/not
+select * from <table_name>
+   "select * from prashanth"
+
+# Deletes a record where the salary=50000
+delete from <table_name> where <attribute_name> = '5000'
+   "delete from Prashanth where salary='50000' "
+
+## Delete a particular row
+delete
+from
+<table_name>
+where
+<column_name> = <Particular row's column name>
+
+## Truncating the table
+All the data's will be deleted only the structure of the table will be retained
+truncate table <table_name>
+   "truncate table Prashanth"
+
+## What are all the constraints in a table???
+select constraint_name,constraint_type from user_constraints where table_name = '<table_name>';
+
+## Alligning the page
+set linesize 200;
+set pagesize 400;
+

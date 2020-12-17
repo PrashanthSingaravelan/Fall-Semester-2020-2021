@@ -1,0 +1,3 @@
+Strong entity (vs) Weak entity --> https://techdifferences.com/difference-between-strong-and-weak-entity.html#:~:text=The%20basic%20difference%20between%20strong,of%20a%20weak%20entity%20set.
+
+Super,Candidate,Primary key difference --> https://beginnersbook.com/2015/04/super-key-in-dbms/

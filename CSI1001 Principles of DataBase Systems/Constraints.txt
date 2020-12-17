@@ -1,0 +1,26 @@
+1) sqlplus --> To access oracle via cmd
+
+# Not Null constraint
+alter table <table_name> modify <attribute_name> constraint <constraintname>_nn not null;
+
+# Unique key constraint 
+alter table <table_name> modify <attribute_name> constraint <constraintname>_un unique;
+alter table <table_name> add constraint <constraintname>_un unique(<attribute_name>)
+
+# Primary key constraint
+alter table <table_name> modify <attribute_name> constraint <constraintname>_pk primary key;
+
+# foreign key 
+alter table <table_name> add constraint <constraintname>_fk foreign key(emp_id) references task(emp_id) on delete set null;
+
+# Check constraint
+alter table <table_name> add constraint <constraintname>_ck check(gender in('M','F'));
+
+# Dropping a constraint
+alter table <table_name> drop constraint <constraint_name>;
+This will drop only the constraint to that particular attribute. The records will not be affected.
+
+# What are all the constraints are present in the table
+ select constraint_name,constraint_type from user_constraints where table_name='<table name>';
+                                                                             ( Give the table name in caps)
+
