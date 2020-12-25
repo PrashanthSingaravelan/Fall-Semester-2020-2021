@@ -1,0 +1,2 @@
+Discrete random variable
+Continuous Random variable
