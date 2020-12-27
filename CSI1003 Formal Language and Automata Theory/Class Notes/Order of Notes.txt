@@ -29,3 +29,10 @@ Pushdown automata
 ################
 
 
+#########################
+Turing Machine
+1) Turing machine as an accepting device
+2) Turing machine as a computing device
+#########################
+
+

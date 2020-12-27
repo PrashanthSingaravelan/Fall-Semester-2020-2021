@@ -1,2 +1,5 @@
 Discrete random variable
 Continuous Random variable
+
+
+integration --> uv-u1v1+u2v2-u3v3

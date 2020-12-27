@@ -22,3 +22,5 @@ Right:Prime attribute
 6) Joints and its types
 
 7) Relational Algebra
+
+8) B trees and B+ trees
