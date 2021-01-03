@@ -16,17 +16,18 @@ Context free grammer,language
 1) Left and Right Most derivation
 2) Parse tree
 3) Ambiguous grammer
-3) CNF
-4) GNF
+4) Simplification of context free grammar
+	Application of context free grammar    
+	5) CNF
+	6) GNF
+	7) CYK algorithm
+	Pushdown automata
+		8) Deterministic Push down automata
+		9) Non-Deterministic Push down automata
+		10) CFG to PDA
+		11) PDA to CFG
 ################
 
-################
-Pushdown automata
-1) Deterministic Push down automata
-2) Non-Deterministic Push down automata
-3) CFG to PDA
-4) PDA to CFG
-################
 
 
 #########################
@@ -34,5 +35,16 @@ Turing Machine
 1) Turing machine as an accepting device
 2) Turing machine as a computing device
 #########################
+
+#########################
+Regular grammar
+1) Regular grammar to regular expression
+2) Regular expression to regular grammar 
+3) Regular language to regular grammar
+4) Regular grammar to language
+5) Regular expression to finite automata
+6) Adren’s theorem (finite automata to regular expression)
+#########################
+
 
 
