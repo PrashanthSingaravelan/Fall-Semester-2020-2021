@@ -1,6 +1,14 @@
-
-Process Synchronization
-Semaphores
+#########################
+Chapter-3
+	Process Synchronization
+	1) Producer-consumer problem
+	2) Spooler problem
+	3) Bakery Algorithm
+		Semaphores
+			1) Bounded buffer problem Solution to Producer consumer problem
+			2) Readers writers problem
+			3) Dinning philosophers problem
+			Solving the above 3 using monitors
 Deadlocks 
    --> Bankers Algorithm
 
@@ -16,3 +24,11 @@ Memory Management
 #########################
 Paging(Non-contiguous)
 #########################
+Pipes
+#########################
+
+
+
+Solution using test and set
+swap 
+semaphores
