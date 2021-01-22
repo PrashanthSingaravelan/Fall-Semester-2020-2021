@@ -9,8 +9,10 @@ Chapter-3
 			2) Readers writers problem
 			3) Dinning philosophers problem
 			Solving the above 3 using monitors
-Deadlocks 
-   --> Bankers Algorithm
+
+	4) Resource allocation graph
+	5) Deadlocks --> Bankers Algorithm
+
 
 #########################
 Threads
