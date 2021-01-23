@@ -26,3 +26,19 @@ Right:Prime attribute
 8) B trees and B+ trees
 
 9) Transaction
+
+Problems
+Important topics to focus on dbms problmes
+
+E-R diagram
+E-R to relational mapping
+Functional dependency
+Normalization
+Lossless / Lossy join dependency
+B-Tree problems
+Relational Algebra
+Query Tree 
+view serializable 
+conflict serializable.
+Concurrency control - Theroy
+locking protocols - Theroy
