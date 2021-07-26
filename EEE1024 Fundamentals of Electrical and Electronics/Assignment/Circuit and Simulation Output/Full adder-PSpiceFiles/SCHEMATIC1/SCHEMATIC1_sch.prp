@@ -1,0 +1,190 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("DigClock")
+        ("7486")
+        ("7408")
+        ("7432")
+    )
+    ("instances"
+        ("A"
+            ("device_name"	"DigClock")
+            ("pspice_path"	"U_A")
+            ("level"	"0")
+            ("model_params"
+                ("ONTIME"
+                    ("value"	"4ms")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("OFFTIME"
+                    ("value"	"4ms")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("DELAY"
+                    ("value"	"")
+                    ("pspice_param"	"DELAY")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+            )
+        )
+        ("B"
+            ("device_name"	"DigClock")
+            ("pspice_path"	"U_B")
+            ("level"	"0")
+            ("model_params"
+                ("OFFTIME"
+                    ("value"	"2ms")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("ONTIME"
+                    ("value"	"2ms")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("DELAY"
+                    ("value"	"")
+                    ("pspice_param"	"DELAY")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+            )
+        )
+        ("C"
+            ("device_name"	"DigClock")
+            ("pspice_path"	"U_C")
+            ("level"	"0")
+            ("model_params"
+                ("ONTIME"
+                    ("value"	"1ms")
+                    ("pspice_param"	"ONTIME")
+                )
+                ("OFFTIME"
+                    ("value"	"1ms")
+                    ("pspice_param"	"OFFTIME")
+                )
+                ("DELAY"
+                    ("value"	"")
+                    ("pspice_param"	"DELAY")
+                )
+                ("STARTVAL"
+                    ("value"	"0")
+                    ("pspice_param"	"STARTVAL")
+                )
+                ("OPPVAL"
+                    ("value"	"1")
+                    ("pspice_param"	"OPPVAL")
+                )
+                ("IO_MODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IO_MODEL")
+                )
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+            )
+        )
+        ("XOR1A"
+            ("device_name"	"7486")
+            ("pspice_path"	"X_XOR1A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+            )
+        )
+        ("XOR2A"
+            ("device_name"	"7486")
+            ("pspice_path"	"X_XOR2A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+            )
+        )
+        ("AND1A"
+            ("device_name"	"7408")
+            ("pspice_path"	"X_AND1A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+            )
+        )
+        ("AND2A"
+            ("device_name"	"7408")
+            ("pspice_path"	"X_AND2A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+            )
+        )
+        ("OR1A"
+            ("device_name"	"7432")
+            ("pspice_path"	"X_OR1A")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+            )
+        )
+    )
+)

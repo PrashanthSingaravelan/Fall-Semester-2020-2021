@@ -1,0 +1,63 @@
+(ExpressProject "Full adder"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\full adder.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\full adder-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\full adder-pspicefiles\schematic1\r4.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\full adder-pspicefiles\schematic1\r4.sim"
+        (DisplayName "SCHEMATIC1-r4")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "D:\SOFTWARES1\ORCAB\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "D:\SOFTWARES1\ORCAB\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7486
+      (FullPartName "7486.Normal")
+      (LibraryName "D:\SOFTWARES1\ORCAB\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 0 200 0 375"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 152 1396 152 583")
+        (Scroll "0 232")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "F:\2) SECOND YEAR 2020-2021\FALL SEMESTER 2020-2021\EEE1024 FUNDAMENTALS OF ELECTRICAL AND ELECTRONICS\ASSIGNMENT\CIRCUIT AND SIMULATION OUTPUT\FULL ADDER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

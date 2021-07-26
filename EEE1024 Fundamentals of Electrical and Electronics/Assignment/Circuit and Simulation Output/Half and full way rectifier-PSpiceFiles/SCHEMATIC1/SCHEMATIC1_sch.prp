@@ -1,0 +1,248 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("D1N4002")
+        ("R")
+        ("VSIN")
+    )
+    ("instances"
+        ("D4"
+            ("device_name"	"D1N4002")
+            ("pspice_path"	"D_D4")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+                ("COMPONENT"
+                    ("value"	"1N4002")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+        ("D3"
+            ("device_name"	"D1N4002")
+            ("pspice_path"	"D_D3")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+                ("COMPONENT"
+                    ("value"	"1N4002")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+        ("D1"
+            ("device_name"	"D1N4002")
+            ("pspice_path"	"D_D1")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+                ("COMPONENT"
+                    ("value"	"1N4002")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+        ("D2"
+            ("device_name"	"D1N4002")
+            ("pspice_path"	"D_D2")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+                ("COMPONENT"
+                    ("value"	"1N4002")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+        ("R2"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+            )
+        )
+        ("V1"
+            ("device_name"	"VSIN")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("AC"
+                    ("value"	"0")
+                    ("pspice_param"	"AC")
+                )
+                ("VAMPL"
+                    ("value"	"10")
+                    ("pspice_param"	"VAMPL")
+                )
+                ("VOFF"
+                    ("value"	"0")
+                    ("pspice_param"	"VOFF")
+                )
+                ("FREQ"
+                    ("value"	"50")
+                    ("pspice_param"	"FREQ")
+                )
+                ("PHASE"
+                    ("value"	"0")
+                    ("pspice_param"	"PHASE")
+                )
+                ("DF"
+                    ("value"	"0")
+                    ("pspice_param"	"DF")
+                )
+                ("TD"
+                    ("value"	"0")
+                    ("pspice_param"	"TD")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("V2"
+            ("device_name"	"VSIN")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("AC"
+                    ("value"	"<AC>")
+                    ("pspice_param"	"AC")
+                )
+                ("VAMPL"
+                    ("value"	"10")
+                    ("pspice_param"	"VAMPL")
+                )
+                ("VOFF"
+                    ("value"	"0")
+                    ("pspice_param"	"VOFF")
+                )
+                ("FREQ"
+                    ("value"	"50")
+                    ("pspice_param"	"FREQ")
+                )
+                ("PHASE"
+                    ("value"	"0")
+                    ("pspice_param"	"PHASE")
+                )
+                ("DF"
+                    ("value"	"0")
+                    ("pspice_param"	"DF")
+                )
+                ("TD"
+                    ("value"	"0")
+                    ("pspice_param"	"TD")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("D5"
+            ("device_name"	"D1N4002")
+            ("pspice_path"	"D_D5")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+                ("COMPONENT"
+                    ("value"	"1N4002")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+        ("R3"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R3")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+            )
+        )
+    )
+)

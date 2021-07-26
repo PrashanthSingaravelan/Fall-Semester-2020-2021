@@ -1,0 +1,10 @@
+* source THEVENIN AND MAXIMUM POWER TRANSFER-2
+R_R5         N02698 N02690  5 TC=0,0 
+R_R7         0 N02698  2 TC=0,0 
+R_R2         N02706 N02698  8 TC=0,0 
+R_R3         N02706 N02662  4 TC=0,0 
+R_R4         N02662 N02690  3 TC=0,0 
+R_R6         0 N02706  6 TC=0,0 
+R_R1         0 N02706  1k TC=0,0 
+V_V1         N03219 0 1Vdc
+R_R8         N03219 N02698  6 TC=0,0 

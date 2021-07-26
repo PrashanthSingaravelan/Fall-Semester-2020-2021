@@ -1,0 +1,50 @@
+
+**** 10/29/20 15:55:36 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-e3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "e3.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Prashanth\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source HALF AND FULL WAY RECTIFIER
+D_D4         N01591 0 D1N4002 
+D_D3         N01591 N01587 D1N4002 
+D_D1         N01587 N01563 D1N4002 
+D_D2         0 N01563 D1N4002 
+R_R2         N01591 N01563  1k TC=0,0 
+V_V1         N01587 0  AC 0
++SIN 0 10 50 0 0 0
+V_V2         N02316 0  AC <AC>
+---------------------------$
+ERROR(ORPSIM-16492): Missing value
++SIN 0 10 50 0 0 0
+D_D5         N02316 N02323 D1N4002 
+R_R3         0 N02323  1k TC=0,0 
+
+**** RESUMING e3.cir ****
+.END
+

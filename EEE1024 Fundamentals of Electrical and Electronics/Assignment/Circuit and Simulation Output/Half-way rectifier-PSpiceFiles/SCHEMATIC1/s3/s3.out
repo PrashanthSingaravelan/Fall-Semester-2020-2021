@@ -1,0 +1,114 @@
+
+**** 10/29/20 16:18:47 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-s3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "s3.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Prashanth\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source HALF-WAY RECTIFIER
+R_R1         0 N02510  1k TC=0,0 
+D_D1         N02486 N02510 D1N3940 
+V_V1         N02486 0  
++SIN 0 10 50 0 0 0
+
+**** RESUMING s3.cir ****
+.END
+
+**** 10/29/20 16:18:47 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-s3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N3940         
+          IS  400.000000E-12 
+           N    1.48         
+          BV  600            
+         IBV  100.000000E-06 
+          RS     .105        
+          TT  800.000000E-09 
+         CJO   19.500000E-12 
+          VJ     .4          
+           M     .38         
+          FC     .9          
+          EG    1.36         
+         XTI   -8            
+
+
+**** 10/29/20 16:18:47 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-s3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02486)    0.0000 (N02510) 9.918E-27 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -9.918E-30
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/29/20 16:18:47 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-s3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

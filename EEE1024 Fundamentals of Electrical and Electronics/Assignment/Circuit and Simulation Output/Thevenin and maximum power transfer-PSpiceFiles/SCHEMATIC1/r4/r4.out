@@ -1,0 +1,96 @@
+
+**** 10/29/20 22:49:00 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r4"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "r4.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Prashanth\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source THEVENIN AND MAXIMUM POWER TRANSFER
+R_R2         N00129 N00136  3 TC=0,0 
+R_R1         N00150 N00129  4 TC=0,0 
+R_R3         N00143 N00136  5 TC=0,0 
+R_R4         N00150 N00143  1k TC=0,0 
+V_V1         N00182 0 16Vdc
+R_R5         N00182 N00150  1k TC=0,0 
+R_R6         N00309 N00150  6 TC=0,0 
+V_V2         N00309 0 24Vdc
+V_V3         N00471 0 18Vdc
+R_R7         N00471 N00143  2 TC=0,0 
+I_I1         N00129 N00136 DC 4Adc  
+
+**** RESUMING r4.cir ****
+.END
+
+**** 10/29/20 22:49:00 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r4"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00129)   14.9950 (N00136)   24.2960 (N00143)   19.7970 (N00150)   18.5930     
+
+(N00182)   16.0000 (N00309)   24.0000 (N00471)   18.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         2.593E-03
+    V_V2        -9.011E-01
+    V_V3         8.985E-01
+
+    TOTAL POWER DISSIPATION   5.41E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/29/20 22:49:00 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r4"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

@@ -1,0 +1,17 @@
+Resistance in series 
+Rs = R1+R2+R3+.....
+
+Resistance in parallel
+1/Rp = 1/R1 + 1/R2 + ....
+
+V=IR
+P=VI
+
+current(i) = rate of change of charge
+      i(t) = dq(t)/dt
+
+Power (p) = rate of doing work
+      P(t) = dw(t)/dt
+
+Energy = Power * time
+(work)

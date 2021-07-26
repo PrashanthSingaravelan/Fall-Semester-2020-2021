@@ -1,0 +1,127 @@
+
+**** 10/29/20 21:17:43 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "r3.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Prashanth\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 2us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DIGITAL LOGIC GATES
+X_U1A         N00254 N00242 N00316 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_A         STIM(1,1) $G_DPWR $G_DGND N00254 IO_STM IO_LEVEL=0 
++ 0 0
++ +1us 1
++REPEAT FOREVER
++ +1us 0
++  +1us 1
++ ENDREPEAT
+U_B         STIM(1,1) $G_DPWR $G_DGND N00242 IO_STM IO_LEVEL=0 
++ 0 0
++ +.5us 1
++REPEAT FOREVER
++ +.5us 0
++  +.5us 1
++ ENDREPEAT
+
+**** RESUMING r3.cir ****
+.END
+
+**** 10/29/20 21:17:43 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_32            
+      TPLHMN    4.000000E-09 
+      TPLHTY   10.000000E-09 
+      TPLHMX   15.000000E-09 
+      TPHLMN    5.600000E-09 
+      TPHLTY   14.000000E-09 
+      TPHLMX   22.000000E-09 
+
+
+**** 10/29/20 21:17:43 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD          
+        DRVL    0             104            
+        DRVH    0              96.4          
+       AtoD1                 AtoD_STD        
+       AtoD2                 AtoD_STD_NX     
+       AtoD3                 AtoD_STD        
+       AtoD4                 AtoD_STD_NX     
+       DtoA1 DtoA_STM        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD        
+      TSWHL1                    1.373000E-09 
+      TSWHL2                    1.346000E-09 
+      TSWHL3                    1.511000E-09 
+      TSWHL4                    1.487000E-09 
+      TSWLH1                    3.382000E-09 
+      TSWLH2                    3.424000E-09 
+      TSWLH3                    3.517000E-09 
+      TSWLH4                    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03 
+
+
+
+          JOB CONCLUDED
+
+**** 10/29/20 21:17:43 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-r3"  [ F:\2) Second Year 2020-2021\Fall semester 2020-2021\EEE1024 Fundamentals of Electrical and Electronic
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time                    =        0.00
+

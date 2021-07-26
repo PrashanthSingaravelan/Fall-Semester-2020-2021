@@ -1,0 +1,82 @@
+(ExpressProject "Half-way rectifier"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\half-way rectifier.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\half-way rectifier-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\half-way rectifier-pspicefiles\schematic1\r4.sim"
+        (DisplayName "SCHEMATIC1-r4")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\half-way rectifier-pspicefiles\schematic1\t5.sim"
+        (DisplayName "SCHEMATIC1-t5")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\half-way rectifier-pspicefiles\schematic1\y.sim"
+        (DisplayName "SCHEMATIC1-y")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\half-way rectifier-pspicefiles\schematic1\g.sim"
+        (DisplayName "SCHEMATIC1-g")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\half-way rectifier-pspicefiles\schematic1\s3.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\half-way rectifier-pspicefiles\schematic1\s3.sim"
+        (DisplayName "SCHEMATIC1-s3")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "D:\SOFTWARES1\ORCAB\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (D1N3940
+      (FullPartName "D1N3940.Normal")
+      (LibraryName "D:\SOFTWARES1\ORCAB\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\SOFTWARES1\ORCAB\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 0 200 0 375"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 38 1282 38 469")
+        (Scroll "105 81")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "F:\2) SECOND YEAR 2020-2021\FALL SEMESTER 2020-2021\EEE1024 FUNDAMENTALS OF ELECTRICAL AND ELECTRONICS\ASSIGNMENT\CIRCUIT AND SIMULATION OUTPUT\HALF-WAY RECTIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Prashanth"))

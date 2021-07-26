@@ -1,0 +1,5 @@
+* source HALF-WAY RECTIFIER
+R_R1         0 N02510  1k TC=0,0 
+D_D1         N02486 N02510 D1N3940 
+V_V1         N02486 0  
++SIN 0 10 50 0 0 0

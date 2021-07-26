@@ -1,0 +1,6 @@
+* source SAMPLE
+I_I1         0 N02551 DC 1Adc  
+R_R1         0 N02551  20 TC=0,0 
+R_R2         0 N02557  5 TC=0,0 
+I_I2         0 N02557 DC 2Adc  
+R_R3         N02557 N02551  10 TC=0,0 
