@@ -8,13 +8,13 @@ alpha = 0.05
 z     = (xbar-mu)/(sig/sqrt(n))
 print(z)
 
-# Left-tailed test
+## Left-tailed test
 left_z_alpha = qnorm(alpha)  
 print(left_z_alpha)
 left_z_alpha = qnorm(1-alpha,lower.tail = F)
 print(left_z_alpha)
 
-# Right tailed test
+## Right tailed test
 right_z_alpha = qnorm(1-alpha)          
 print(right_z_alpha)
 right_z_alpha = qnorm(alpha,lower.tail = F)

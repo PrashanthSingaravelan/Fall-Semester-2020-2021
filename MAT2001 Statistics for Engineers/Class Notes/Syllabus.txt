@@ -1,6 +1,0 @@
-Discrete random variable
-Continuous Random variable
-	Joint probability density function
-Moments and moment generating fucntions
-
-integration --> uv-u1v1+u2v2-u3v3
